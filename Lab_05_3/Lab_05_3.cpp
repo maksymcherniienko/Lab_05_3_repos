@@ -29,7 +29,7 @@ double s(const double x)
 {
 	if (abs(x) >= 1 || x == 0)
 		return ((pow(cos(x), 2)) + 1) / (exp(x));
-	if (abs(x)<1 || x != 0)
+	else
 	{
 		double Sum = 0;
 		int k = 0;
